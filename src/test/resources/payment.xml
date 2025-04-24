@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Payment Suite">
+    <test name="Payment Group Test">
+        <groups>
+            <run>
+                <include name="Payment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="pomTest.TestRunner"/>
+        </classes>
+    </test>
+</suite>
